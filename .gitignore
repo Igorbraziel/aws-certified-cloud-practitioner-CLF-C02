@@ -1,2 +1,50 @@
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# IDE and Editor files
+.idea/
+.vscode/
+*.swp
+*.bak
+*~
+
+# Build artifacts and temporary files
+build/
+dist/
+target/
+*.log
+*.tmp
+temp/
+
+# Node.js specific (if applicable)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Python specific (if applicable)
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Java specific (if applicable)
+*.class
+*.jar
+*.war
+.classpath
+.project
+.settings/
+
+# AWS specific files and directories
+.aws-sam/ # SAM CLI build artifacts
+.serverless/ # Serverless Framework build artifacts
+sam-build/ # SAM CLI build artifacts
+template.yaml.bak # Backup of SAM template
+cloudformation-build/ # CloudFormation build artifacts
+*.zip # Deployment packages
+*.pem # SSH key files
+credentials # AWS credentials file (should never be committed)
+config # AWS config file (should never be committed)
+.env # Environment variables (should never be committed)
 *.csv
-*.pem
